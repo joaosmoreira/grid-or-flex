@@ -1,0 +1,19 @@
+body {
+
+    margin: 5vh;
+    display: block;
+    
+}
+
+.display-1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 250px !important;
+    color: white;
+    text-align: center;
+}
+
+.col-lg-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
