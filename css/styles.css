@@ -1,15 +1,73 @@
+/* Body styles */
 body {
-
-    margin: 5vh;
-    display: block;
-    
+    margin: 20px;
+    background-color: white; 
 }
 
-.display-1 {
+/* Letter styles */
+.letter {
     font-family: 'Anton', sans-serif;
     font-size: 250px !important;
     color: white;
     text-align: center;
+    /* não selecionavel */
+    user-select: none;
+}
+
+/* Area styles */
+.area-1 {
+    background-color: #542e71;
+    height: 50vh;
+}
+
+.area-2 {
+    background-color: #5f4a8a;
+    height: 50vh;
+}
+
+.area-3 {
+    background-color: #655897;
+    height: 50vh;
+}
+
+.area-4 {
+    background-color: #6a66a3;
+    height: 50vh;
+}
+
+.area-5 {
+    background-color: #84a9c0;
+    height: 50vh;
+}
+
+.area-6 {
+    background-color: #9cbabd;
+    height: 50vh;
+}
+
+.area-7 {
+    background-color: #b3cbb9;
+    height: 50vh;
+}
+
+.area-8 {
+    background-color: #ddd8b8;
+    height: 50vh;
+}
+
+/* Rotation styles */
+.letter-back {
+    font-family: 'Anton', sans-serif;
+    font-size: 18px !important;
+    color:#542e71;
+    text-align: center;
+    transform: rotateY(180deg) translateZ(50px);
+    transform-style: preserve-3d;
+    transition: transform 0.1s;
+}
+
+.letter-back:hover {
+    transform: rotateY(0deg) translateZ(50px);
 }
 
 .col-lg-3{
